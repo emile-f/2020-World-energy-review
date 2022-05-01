@@ -1,0 +1,236 @@
+.section.experience .timeline {
+  width: calc(100% - 120px);
+  padding-left: 60px;
+  padding-right: 60px;
+  z-index: 1;
+  height: 2420px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.section.experience .timeline .timeline-line {
+  height: 0%;
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  -webkit-transition: 500ms ease-out;
+  transition: 500ms ease-out;
+}
+
+.section.experience .timeline-cards {
+  top: 120px;
+  width: calc(100% - 120px);
+  z-index: 2;
+  height: 2420px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.section.experience .timeline-cards .timeline-card {
+  height: 220px;
+  /* Original height 250px - 15px padding on both sides */
+  width: 370px;
+  background-color: white;
+  position: absolute;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  -webkit-transition: 1000ms ease-out;
+  transition: 1000ms ease-out;
+  padding: 15px;
+}
+
+.section.experience .timeline-cards .timeline-card.left .date {
+  float: right;
+}
+
+.section.experience .timeline-cards .timeline-card.right .date {
+  float: left;
+}
+
+.section.experience .timeline-cards .timeline-card .title {
+  margin-top: 30px;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.section.experience .timeline-cards .timeline-card .where {
+  font-size: 17;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.section.experience .timeline-cards .timeline-card .description {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.section.experience .timeline-cards .timeline-card img {
+  position: absolute;
+  bottom: 15px;
+  max-width: 75px;
+}
+
+.section.experience .timeline-cards .timeline-card.right img {
+  right: 15px;
+}
+
+.section.experience .timeline-cards .timeline-card.left img {
+  left: 15px;
+}
+
+/* CSS needs to be more specific */
+.section.experience .timeline-cards .timeline-card.left.active,
+.section.experience .timeline-cards .timeline-card.right.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.section.experience .timeline-cards .timeline-card.left {
+  left: 9%;
+  transform: translate3d(-250px, 0, 0);
+}
+
+.section.experience .timeline-cards .timeline-card.right {
+  right: 9%;
+  transform: translate3d(250px, 0, 0);
+}
+
+.section.experience .timeline-cards .timeline-card.card-1 {
+  top: 225px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-2 {
+  top: 525px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-3 {
+  top: 825px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-4 {
+  top: 1125px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-5 {
+  top: 1425px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-6 {
+  top: 1725px;
+}
+
+.section.experience .timeline-cards .timeline-card.card-7 {
+  top: 2025px;
+}
+
+.section.experience .timeline .timeline-dot {
+  background-color: #364750;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -6px;
+  border-radius: 15px;
+  opacity: 0;
+  -webkit-transition: 500ms ease-out;
+  transition: 500ms ease-out;
+}
+
+.section.experience .timeline .timeline-dot.active {
+  opacity: 1;
+}
+
+.section.experience .timeline .timeline-dot.dot {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.experience .timeline .timeline-dot > i {
+  color: white;
+}
+
+.section.experience .timeline .timeline-dot.dot-1 {
+  top: 300px;
+}
+
+.section.experience .timeline .timeline-dot.dot-2 {
+  top: 600px;
+}
+
+.section.experience .timeline .timeline-dot.dot-3 {
+  top: 900px;
+}
+
+.section.experience .timeline .timeline-dot.dot-4 {
+  top: 1200px;
+}
+
+.section.experience .timeline .timeline-dot.dot-5 {
+  top: 1500px;
+}
+
+.section.experience .timeline .timeline-dot.dot-6 {
+  top: 1800px;
+}
+
+.section.experience .timeline .timeline-dot.dot-7 {
+  top: 2100px;
+}
+
+.section.experience .timeline .timeline-dot.end {
+  top: 2400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section.experience {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section.experience .timeline {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section.experience .timeline-cards {
+    width: calc(100% - 30px);
+  }
+
+  .section.experience .timeline-cards .timeline-card.left {
+    transform: translate3d(-50px, 0, 0);
+    left: 1%;
+  }
+
+  .section.experience .timeline-cards .timeline-card.right {
+    right: 1%;
+    transform: translate3d(50px, 0, 0);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-section .section.experience .timeline .timeline-dot.dot {
+    opacity: 0;
+  }
+
+  .section.experience .timeline-cards .timeline-card.left {
+    transform: translate3d(0, 0, 0);
+    left: 2px;
+  }
+
+  .section.experience .timeline-cards .timeline-card.right {
+    right: 2px;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .section.experience .timeline-cards .timeline-card {
+    width: calc(100% - 34px);
+  }
+}

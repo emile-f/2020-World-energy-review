@@ -1,0 +1,19 @@
+{
+  "name": "emile-ferrand-personal-website",
+  "version": "1.0.0",
+  "description": "Personal website for Web Development class.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1",
+    "format": "prettier --write js/*.js css/*.css *.html",
+    "lint": "eslint js/**"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "http-server": "^0.12.3",
+    "prettier": "^2.1.2"
+  }
+}

@@ -1,0 +1,77 @@
+@media screen and (max-width: 480px) {
+  /* Reset styles */
+  button {
+    all: unset;
+  }
+
+  header .hamburger-menu,
+  #drawer .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  #drawer .hamburger-menu {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .hamburger-menu::before,
+  .hamburger-menu::after {
+    content: "";
+    position: relative;
+    top: 0;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu span {
+    display: block;
+    height: 5px;
+    background-color: white;
+    border-radius: 12px;
+  }
+
+  header.active .hamburger-menu::before,
+  header.active .hamburger-menu::after,
+  header.active .hamburger-menu span {
+    background-color: #364750;
+  }
+
+  .hamburger-menu span {
+    width: 100%;
+    margin: 5px 0;
+    opacity: 1;
+  }
+  .hamburger-menu::after {
+    align-self: flex-end;
+  }
+
+  /* Close animation */
+
+  .hamburger-menu.close::before {
+    top: 10px;
+    transform: rotate(45deg);
+  }
+  .hamburger-menu.close::after {
+    top: -10px;
+    transform: rotate(-45deg);
+  }
+
+  .hamburger-menu.close::before,
+  .hamburger-menu.close::after {
+    transition: transform 0.4s cubic-bezier(0.45, 0.05, 0.55, 0.95),
+      top 0.4s ease-out 0.4s, width 0.4s cubic-bezier(0, 0.3, 0.81, 1.24) 0.9s;
+    width: 100%;
+  }
+  .hamburger-menu.close span {
+    transition: opacity 0.1s linear 0.4s;
+    opacity: 0;
+  }
+}
