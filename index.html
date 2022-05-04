@@ -99,9 +99,13 @@
       <article id="about" class="section about">
         <h2>Introduction</h2>
         <p>
-          The covid pandemic has had a massive impact on our lives. The effects of this are also felt in energy markets where global primary energy consumption fell by 4.5% and carbon emissions fall by 6.3% in the largest year-to-year decline in over 50 years. The issue of oil from Russia, has also become a problem recently as well. All the while the world aims to be moving towards greener more renewable energy sources.
+          The covid pandemic has had a massive impact on our lives. The effects of this are also felt in energy markets
+          where global primary energy consumption fell by 4.5% and carbon emissions fall by 6.3% in the largest
+          year-to-year decline in over 50 years. The issue of oil from Russia, has also become a problem recently as
+          well. All the while the world aims to be moving towards greener more renewable energy sources.
 
-          With our visualizations we want to show what sources the power we are consuming to generate our power and to show features and historic trends between countries. 
+          With our visualizations we want to show what sources the power we are consuming to generate our power and to
+          show features and historic trends between countries.
         </p>
       </article>
 
@@ -111,11 +115,19 @@
       <article class="section">
         <h2>Worldwide Power Consumption Trends</h2>
         <div>
-        <p>
-          Lets start off by taking a look at the big picture. In this case that is our entire total global power consumption. As the population of the planet grows and technology advances, there is a clear need for more energy resulting in a steady increase in consumption as well.
+          <p>
+            Lets start off by taking a look at the big picture. In this case that is our entire total global power
+            consumption. As the population of the planet grows and technology advances, there is a clear need for more
+            energy resulting in a steady increase in consumption as well.
 
-          In 2020, largely as a result of the covid pandemic was the first year in a while that global energy consumption has fallen (by almost 5%). This decline was mostly due to the drop in demand for oil which dipped 15 EJ (almost 9% since the previous year). With the current ongoing war in Ukraine and Oil being a hot topic I belive this trend will continue as well. Despite this dip in consumption, renewable and hydro energy remained unaffected and with renewables alone tripling over the course of the last 10 years. Still, it remains a rather small proportion of total energy consumption but with the world becoming more climate active and various climate agreements I hope it can also continue in the future. 
-        </p>
+            In 2020, largely as a result of the covid pandemic was the first year in a while that global energy
+            consumption has fallen (by almost 5%). This decline was mostly due to the drop in demand for oil which
+            dipped 15 EJ (almost 9% since the previous year). With the current ongoing war in Ukraine and Oil being a
+            hot topic I belive this trend will continue as well. Despite this dip in consumption, renewable and hydro
+            energy remained unaffected and with renewables alone tripling over the course of the last 10 years. Still,
+            it remains a rather small proportion of total energy consumption but with the world becoming more climate
+            active and various climate agreements I hope it can also continue in the future.
+          </p>
         </div>
         <div>
           <div id="observablehq-viewof-normalize1-e4a57d1b"></div>
@@ -129,9 +141,16 @@
       <article class="section">
         <h2></h2>
         <p>
-          Next, we can take a closer look and explore the individual regions & countries. Historically the US was the leading energy consumer until they were overtaken by China in 2009 who have led the world since then. India has also been steadily climbing the ranks in the meantime as well.
+          Next, we can take a closer look and explore the individual regions & countries. Historically the US was the
+          leading energy consumer until they were overtaken by China in 2009 who have led the world since then. India
+          has also been steadily climbing the ranks in the meantime as well.
 
-A clear trend that is visible on the visualizations below is that more developed nations also have higher energy consumption. This obviously makes a lot of sense. However it did not mean that they were using higher proportions of cleaner energy sources. In fact while the general overall trend is that renewable energy consumption is increasing, only around half of the highest 25 consumers in 2020 consume more than 10% of clean (hydro or renewable) energy. The leaders in that regard are Brazil with over 40% of their power coming from clean sources (most of which is from hydro) and then Canada with almost 30%.
+          A clear trend that is visible on the visualizations below is that more developed nations also have higher
+          energy consumption. This obviously makes a lot of sense. However it did not mean that they were using higher
+          proportions of cleaner energy sources. In fact while the general overall trend is that renewable energy
+          consumption is increasing, only around half of the highest 25 consumers in 2020 consume more than 10% of clean
+          (hydro or renewable) energy. The leaders in that regard are Brazil with over 40% of their power coming from
+          clean sources (most of which is from hydro) and then Canada with almost 30%.
         </p>
         <div>
           <div id="observablehq-viewof-normalizesac-e4a57d1b"></div>
@@ -201,7 +220,74 @@ A clear trend that is visible on the visualizations below is that more developed
         <div>
           <div id="observablehq-viewof-typeTruncation-67492539"></div>
           <div style="height: 350px; width: 1200px;" id="observablehq-chartWorld-06f59db3"></div>
-          <script src="./observablehq/chart1.js" type="module"></script>
+          <script src="./observablehq/chart1_emile.js" type="module"></script>
+        </div>
+      </article>
+
+      <div class="parallax-section parallax-2"></div>
+
+      <article class="section">
+        <h2>Carbon Dioxide Emissions on a per country bases</h2>
+        <div class="section-column">
+          <div class="left">
+            <p>
+              If we now look at a per country visualization we can observe that all south/central American countries
+              have a slight increase in carbon dioxide emissions while we saw the production in most North American
+              countries double and we saw a decrease in most European countries.
+
+              Filtering by country is done by selecting the desired country in the checkbox list below. while the
+              filtering of emission Type is done by selecting the desired emission type.
+            </p>
+
+          </div>
+          <div class="right">
+            <div id="observablehq-viewof-selectedCountries-907ebec1"></div>
+          </div>
+        </div>
+        <div>
+          <div style="height: 350px; width: 1200px;" id="observablehq-chart-907ebec1"></div>
+          <script src="./observablehq/chart2_emile.js" type="module"></script>
+        </div>
+      </article>
+
+      <div class="parallax-section parallax-2"></div>
+
+      <article class="section">
+        <h2>Oil trade in the year 2020</h2>
+        <div class="section-column">
+          <div class="left">
+            <p>
+              The following network represents the trade oil crude/produced oil in the Year 2020. The nodes size
+              represents the total import and export a country does while the line thingness of the links represents the
+              trade of those countries. When hovering over a country it shows the import of oil with green line color
+              and export with a red color. Hovering also reveals more info on the right side of the chart for easier
+              reading and specific values of trades. The legend has a hoverable state to reveal the countries un that
+              group.
+            </p>
+
+          </div>
+          <div class="right">
+            <p>
+              As most people know the oil trade is an important factor of the world economy. The price of oil can vary a
+              lot depending on supply and the demand. Like in 2014 when Saudi Arabia decided not to scale down there
+              production and the US also kept producing its steady amount we got an over production and prices fell
+              sharply. It would be interesting to do the same study about the global trade of crude/produced oil in the
+              year 2022 as we have a war going on and this would drastically change trade relations between countries.
+              </br>
+              The following network represents the trade oil crude/produced oil in the Year 2020. The nodes size
+              represents the total import and export a country does while the line thingness of the links represents the
+              trade of those countries. When hovering over a country it shows the import of oil with green line color
+              and export with a red color. Hovering also reveals more info on the right side of the chart for easier
+              reading and specific values of trades. The legend has a hoverable state to reveal the countries un that
+              group.
+            </p>
+          </div>
+        </div>
+        <div>
+
+          <div id="observablehq-viewof-oilType-e55ee2d5"></div>
+          <div style="height: 400px; width: 1200px;" id="observablehq-graphChart-e55ee2d5"></div>
+          <script src="./observablehq/chart3_emile.js" type="module"></script>
         </div>
       </article>
 
