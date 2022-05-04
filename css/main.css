@@ -333,6 +333,10 @@ footer .copyright {
   flex-direction: row;
 }
 
+.content-section .section .section-column p {
+  font-size: 15px;
+}
+
 .content-section .section .left {
   width: 50%;
 }
