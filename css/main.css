@@ -278,16 +278,16 @@ footer .social>a {
 }
 
 footer .social>a>div {
-  width: 47px;
+  width: 150px;
   height: 47px;
-  border-radius: 50%;
+  border-radius: 47px;
   background-color: #364750;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid transparent;
-  font-size: 25px;
+  font-size: 19px;
 }
 
 footer .social>a>div:hover {
