@@ -212,14 +212,17 @@ header.active .menu a:hover {
 }
 
 .content-section .parallax-section.parallax-1 {
+  /* source: https://unsplash.com/photos/Q1p7bh3SHj8 */
   background-image: url("../assets/parallax-1.min.jpg");
 }
 
 .content-section .parallax-section.parallax-2 {
+  /* source: https://unsplash.com/photos/0w-uTa0Xz7w */
   background-image: url("../assets/parallax-2.min.jpg");
 }
 
 .content-section .parallax-section.parallax-3 {
+  /* source: https://unsplash.com/photos/JbfhNrpQ_dw */
   background-image: url("../assets/parallax-3.min.jpg");
 }
 
