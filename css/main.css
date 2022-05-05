@@ -129,8 +129,8 @@ header.active .menu a:hover {
 }
 
 .header-section {
-  padding-top: calc(50vh - 115px);
-  padding-bottom: calc(50vh - 115px);
+  padding-top: calc(50vh - 181px);
+  padding-bottom: calc(50vh - 181px);
   overflow: hidden;
   position: relative;
   width: 100%;
