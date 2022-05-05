@@ -253,11 +253,6 @@ header.active .menu a:hover {
   margin-bottom: 30px;
 }
 
-.content-section .section.about,
-.content-section .section.skills {
-  max-width: 500px;
-}
-
 .content-section .section .column {
   display: flex;
   height: 600px;
