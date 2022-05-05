@@ -134,7 +134,8 @@ header.active .menu a:hover {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url("../assets/cover-2.min.jpg");
+  background-image: url("../assets/cover.min.jpg");
+  /* source: https://unsplash.com/photos/Q1p7bh3SHj8 */
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -212,14 +213,17 @@ header.active .menu a:hover {
 }
 
 .content-section .parallax-section.parallax-1 {
+  /* source: https://unsplash.com/photos/Q1p7bh3SHj8 */
   background-image: url("../assets/parallax-1.min.jpg");
 }
 
 .content-section .parallax-section.parallax-2 {
+  /* source: https://unsplash.com/photos/0w-uTa0Xz7w */
   background-image: url("../assets/parallax-2.min.jpg");
 }
 
 .content-section .parallax-section.parallax-3 {
+  /* source: https://unsplash.com/photos/JbfhNrpQ_dw */
   background-image: url("../assets/parallax-3.min.jpg");
 }
 
@@ -378,6 +382,7 @@ footer .copyright {
   width: auto !important;
 }
 
+
 .country-list form>div {
   display: flex;
   flex-direction: row;
@@ -397,3 +402,4 @@ footer .copyright {
 .country-list form>div>label {
   width: auto;
 }
+
