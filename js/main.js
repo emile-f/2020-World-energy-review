@@ -1,5 +1,4 @@
 var drawer;
-var HelloThereAudio = new Audio("./assets/hello-there.mp3");
 
 // Function to add a click handler to a given element
 function addClickHandler(elementId, functionName) {
@@ -19,10 +18,6 @@ window.addEventListener("load", function () {
   addClickHandler("close-mobile-menu", openDrawer);
 
   drawer = document.getElementById("drawer");
-
-  // play audio fragment on click
-  // id: play-audio
-  addClickHandler("play-audio", playAudioFile);
 
   // scroll to next section on page
   // id: scroll-down
