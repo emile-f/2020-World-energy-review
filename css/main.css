@@ -367,14 +367,18 @@ footer .copyright {
   font-size: 15px;
 }
 
+.content-section .section .right,
 .content-section .section .left {
   width: 50%;
 }
 
-.content-section .section .right {
-  width: 50%;
+.content-section .section .left p {
+  padding-right: 15px;
 }
 
+.content-section .section .right p {
+  padding-left: 15px;
+}
 
 /* observablehq */
 
@@ -402,4 +406,3 @@ footer .copyright {
 .country-list form>div>label {
   width: auto;
 }
-
