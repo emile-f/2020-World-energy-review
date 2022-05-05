@@ -134,7 +134,7 @@ header.active .menu a:hover {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url("../assets/cover-2.min.jpg");
+  background-image: url("../assets/cover.min.jpg");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
