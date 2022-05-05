@@ -300,6 +300,7 @@ footer .social {
 
 footer .social>a {
   text-decoration: none;
+  margin: 5px;
 }
 
 footer .social>a>div {
