@@ -377,3 +377,23 @@ footer .copyright {
 .observablehq form>label {
   width: auto !important;
 }
+
+.country-list form>div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.country-list form>div output,
+.country-list form>div input {
+  width: auto;
+}
+
+.country-list form {
+  max-width: 100% !important;
+  width: auto !important;
+}
+
+.country-list form>div>label {
+  width: auto;
+}
