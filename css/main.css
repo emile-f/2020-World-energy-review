@@ -219,6 +219,28 @@ header.active .menu a:hover {
   background-image: url("../assets/parallax-2.min.jpg");
 }
 
+.content-section .parallax-section.parallax-oil {
+  /* source: https://unsplash.com/photos/GrmwVnVSSdU */
+  background-image: url("../assets/zbynek-burival-GrmwVnVSSdU-unsplash.jpg");
+}
+
+.content-section .parallax-section.parallax-world {
+  /* source: https://unsplash.com/photos/Q1p7bh3SHj8 */
+  background-image: url("../assets/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-position: center center;
+}
+
+.content-section .parallax-section.parallax-carbon-1 {
+  /* source: https://unsplash.com/photos/c7RWVGL8lPA */
+  background-image: url("../assets/chris-leboutillier-c7RWVGL8lPA-unsplash.jpg");
+  background-position: center center;
+}
+
+.content-section .parallax-section.parallax-carbon-2 {
+  /* source: https://unsplash.com/photos/vc-vPgGqAr4 */
+  background-image: url("../assets/anne-nygard-vc-vPgGqAr4-unsplash.jpg");
+}
+
 .content-section .section>*:not(:last-child) {
   margin-bottom: 30px;
 }
