@@ -219,6 +219,10 @@ header.active .menu a:hover {
   background-image: url("../assets/parallax-2.min.jpg");
 }
 
+.content-section .parallax-section.parallax-3 {
+  background-image: url("../assets/parallax-3.min.jpg");
+}
+
 .content-section .parallax-section.parallax-oil {
   /* source: https://unsplash.com/photos/GrmwVnVSSdU */
   background-image: url("../assets/zbynek-burival-GrmwVnVSSdU-unsplash.jpg");
