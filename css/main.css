@@ -366,3 +366,10 @@ footer .copyright {
 .content-section .section .right {
   width: 50%;
 }
+
+
+/* observablehq */
+
+.observablehq form>label {
+  width: auto !important;
+}
